@@ -11,6 +11,42 @@
   </head>
 
   <body>
+  <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="https://media.istockphoto.com/id/1221608742/fr/vectoriel/bouton-de-jeu-rouge-sur-lic%C3%B4ne-plate-de-fond-blanche-vecteur.jpg?s=612x612&w=0&k=20&c=SbYK2W3A1JbU1E90nKZs1fweL-KM4HDnANNSZhCZ6Y4=" />
+</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Messages</a>
+          </li>
+          <li class="nav-item dropdown">
+            <img class="avatar dropdown-toggle" id="navbarDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" src="https://avatars.githubusercontent.com/u/115413024?v=4" />
+            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" data-turbo-method="delete" href="#">Log out</a>
+            </div>
+          </li>
+          <!--li class="nav-item"-->
+          <!--/li-->
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://tel.img.pmdstatic.net/fit/https.3A.2F.2Fi.2Epmdstatic.2Enet.2Ftel.2F2022.2F05.2F30.2Fdd2da170-3b0f-4fe1-bfd0-bc59f1aa02c2.2Ejpeg/540x295/quality/80/thumbnail.jpeg);">
+  <div class="container">
+    <h1>Les bons films t'as vu c'est bieng</h1>
+  </div>
+</div>
     <%= yield %>
   </body>
 </html>
